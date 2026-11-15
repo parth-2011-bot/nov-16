@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f0e4cb">
+  <meta name="description" content="yoo">
+  <title>down bad simulator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/town.css">
+  <link rel="stylesheet" href="css/tavern.css">
+</head>
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#intro" aria-label="The Divine Event, introduction">
+      <span class="brand-mark">✿</span><span>THE DIVINE EVENT</span>
+    </a>
+    <nav class="page-nav" aria-label="Main pages">
+      <button class="nav-link active" data-go="intro"><span>01</span> The Letter</button>
+      <button class="nav-link" data-go="town"><span>02</span> The Town</button>
+      <button class="nav-link" data-go="tavern"><span>03</span> The Tavern</button>
+    </nav>
+    <div class="topbar-note">Physics is sooo cool</div>
+  </header>
+
+  <main>
+    <section class="page page-intro active" id="intro" aria-labelledby="intro-title">
+      <div class="intro-ornament ornament-top">❧　✦　❧</div>
+      <div class="intro-card">
+        <div class="eyebrow"><span class="eyebrow-line"></span> A NOTICE FROM THE KINGDOM <span class="eyebrow-line"></span></div>
+        <p class="serial">ROYAL CIRCULAR · NO. 20 / XI</p>
+        <h1 id="intro-title">An announcement<br><em>of the highest</em> importance.</h1>
+        <p class="intro-subtitle">A rather extraordinary occasion is approaching.</p>
+        <div class="wax-seal" aria-hidden="true"><span>✿</span></div>
+        <div class="personal-letter" id="intro-message"></div>
+        <div class="signature"><span>With the greatest of affection,</span><strong></strong></div>
+        <button class="primary-button" data-go="town">Enter the kingdom <span>→</span></button>
+      </div>
+      <div class="intro-ornament ornament-bottom">✧　❀　✧</div>
+      <p class="page-footnote">THERE IS A WHOLE TOWN WAITING</p>
+    </section>
+
+    <section class="page page-town" id="town" aria-labelledby="town-heading">
+      <div class="scene-sky">
+        <div class="sun-halo"><div class="sun"></div></div>
+        <div class="cloud cloud-one"></div><div class="cloud cloud-two"></div><div class="cloud cloud-three"></div>
+        <div class="distant-hills"></div>
+        <div class="town-heading">
+          <p class="eyebrow"></p>
+          <h2 id="town-heading">A town in a <em>flurry</em> of preparations</h2>
+          <p>sorta like diwali?.</p>
+        </div>
+        <div class="festival-string"><span>✦</span><i></i><span>✿</span><i></i><span>✦</span><i></i><span>✿</span><i></i><span>✦</span></div>
+      </div>
+
+      <div class="town-stage" aria-label="An illustrated fantasy village preparing for a birthday">
+        <div class="back-hill hill-left"></div><div class="back-hill hill-right"></div>
+        <div class="town-ground"></div>
+        <div class="road"></div>
+        <div class="house house-one"><div class="roof roof-steep"></div><div class="chimney"></div><div class="house-body"><span class="window w1"></span><span class="window w2"></span><span class="door"></span></div><div class="flower-box">✿ ✿</div></div>
+        <div class="house house-two"><div class="roof roof-round"></div><div class="house-body"><span class="window w1"></span><span class="window w2"></span><span class="door"></span></div></div>
+        <div class="house house-three"><div class="roof roof-tall"></div><div class="chimney"></div><div class="house-body"><span class="window w1"></span><span class="window w2"></span><span class="door"></span></div></div>
+        <div class="house house-four"><div class="roof roof-wide"></div><div class="house-body"><span class="window w1"></span><span class="door"></span></div></div>
+
+        <div class="tower">
+          <div class="tower-roof"><span class="roof-finial">✦</span></div>
+          <div class="tower-cap"></div>
+          <div class="tower-face">
+            <div class="tower-label" id="tower-label">THE DIVINE EVENT BEGINS IN</div>
+            <div class="clock-face"><span class="clock-star">✧</span><div class="countdown" id="countdown">
+              <div><strong id="days">00</strong><small>DAYS</small></div><b>:</b>
+              <div><strong id="hours">00</strong><small>HRS</small></div><b>:</b>
+              <div><strong id="minutes">00</strong><small>MIN</small></div><b>:</b>
+              <div><strong id="seconds">00</strong><small>SEC</small></div>
+            </div><span class="clock-star star-right">✧</span></div>
+            <div class="tower-caption" id="tower-caption">All preparations must be completed before Her arrival.</div>
+          </div>
+          <div class="tower-lower"><span class="tower-window"></span><span class="tower-window"></span><span class="tower-door"></span></div>
+        </div>
+
+        <div class="tree tree-a"><i></i><b></b><span></span></div>
+        <div class="tree tree-b"><i></i><b></b><span></span></div>
+        <div class="tree tree-c"><i></i><b></b><span></span></div>
+        <div class="bush bush-a">✿</div><div class="bush bush-b">❀</div><div class="bush bush-c">✿</div>
+        <div class="fence fence-a"></div><div class="fence fence-b"></div>
+        <div class="goddess-emblem" title="The symbol of the one and only goddess"><span>✧</span><b>✿</b><span>✧</span></div>
+        <div class="town-sign">WELCOME, MOST HONOURED GUEST</div>
+        <div class="shinchan-easter-egg" title="A tiny visitor"><img src="assets/images/shinchan.png" alt="Shinchan cameo" onerror="this.parentElement.classList.add('asset-missing');this.style.display='none'"><span class="fallback-easter">psst.</span></div>
+        <div class="balloon-layer" id="balloon-layer" aria-hidden="true"></div>
+        <div class="town-ground-detail">❀　✧　✿　✧　❀　✧　✿</div>
+      </div>
+      <div class="town-bottom">
+        <div class="town-status"><span class="status-dot"></span><span id="town-status">The residents are making excellent progress.</span></div>
+        <p class="town-instruction">A little patience, please. The town is very busy.</p>
+      </div>
+      <div class="birthday-banner" id="birthday-banner" hidden>
+        <span>✦ THE DIVINE EVENT HAS ARRIVED ✦</span>
+        <strong>ALL HAIL THE BIRTHDAY OF OUR ONE AND ONLY GODDESS.</strong>
+        <p id="birthday-message"></p>
+      </div>
+      <div class="page-controls"><button class="text-button" data-go="intro">← The letter</button><span class="page-count">02 <i>/</i> 03</span><button class="primary-button small" data-go="tavern">Visit the tavern <span>→</span></button></div>
+    </section>
+
+    <section class="page page-tavern" id="tavern" aria-labelledby="tavern-heading">
+      <div class="tavern-header">
+        <p class="eyebrow">The Town Gathering</p>
+        <h2 id="tavern-heading">The <em>Hearth & Holly</em></h2>
+        <p>You can click the resident to see what they talking abt.</p>
+      </div>
+      <div class="tavern-room">
+        <div class="wood-beam beam-top"></div><div class="wall-banner">✿ &nbsp; THE FINEST OF EVERYTHING &nbsp; ✿</div>
+        <div class="tavern-window window-left"><span></span><i></i></div><div class="tavern-window window-right"><span></span><i></i></div>
+        <div class="fireplace"><div class="mantel">✧　✿　✧</div><div class="fire"><i></i><b></b><span></span></div><div class="hearth-stone"></div></div>
+        <div class="lantern lantern-left">✧</div><div class="lantern lantern-right">✧</div>
+        <div class="tavern-floor"></div>
+        <div class="table table-back"><div class="table-top"></div><div class="table-leg"></div></div>
+        <div class="table table-front"><div class="table-top"></div><div class="table-leg"></div><div class="table-vase">✿</div></div>
+        <div class="character-grid" id="character-grid" aria-label="Tavern residents"></div>
+        <div class="tavern-welcome">THE HOUSE IS WARM. THE TEA IS HOT. THE CONVERSATION IS, AS ALWAYS, ABOUT HER.</div>
+      </div>
+      <div class="tavern-note"><span>✦</span> <span>✦</span></div>
+      <div class="page-controls"><button class="text-button" data-go="town">← Back to town</button><span class="page-count">03 <i>/</i> 03</span><button class="text-button" data-go="intro">Read the letter again ↺</button></div>
+    </section>
+  </main>
+
+  <div class="dialogue-backdrop" id="dialogue-backdrop" hidden>
+    <section class="dialogue-card" role="dialog" aria-modal="true" aria-labelledby="dialogue-name">
+      <button class="dialogue-close" id="dialogue-close" aria-label="Close dialogue">×</button>
+      <div class="dialogue-portrait" id="dialogue-portrait">✿</div>
+      <p class="dialogue-role" id="dialogue-role"></p>
+      <h3 id="dialogue-name"></h3>
+      <p class="dialogue-quote" id="dialogue-quote"></p>
+      <button class="next-quote" id="next-quote">Another thought <span>↗</span></button>
+    </section>
+  </div>
+
+  <footer class="site-footer"><span>PHYSICS SO AWSOMEEE</span><span>✧</span><span>20 · XI</span></footer>
+  <script src="js/countdown.js"></script>
+  <script src="js/characters.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
